@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Horizon Web Studio | Premium Web Development in Abuja</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+
+      <a href="#hero" class="logo">
+        Horizon <span>Web Studio</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mobileNav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Work</a>
+        <a href="#local-edge">The Local Edge</a>
+        <a href="#contact">Contact</a>
+
+        <a href="#contact" class="nav-cta">
+          Get in Touch
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <p class="hero-tag">
+          Abuja-Based Web Design & Development Studio
+        </p>
+
+        <h1>
+          We Build Fast, Modern Websites That Drive Real Customers To Your Local Business.
+        </h1>
+
+        <p class="hero-description">
+          From sleek barbershop landing pages to robust restaurant booking systems,
+          Horizon Web Studio helps businesses across Abuja dominate online.
+          No jargon, just results.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            Start Your Project
+          </a>
+
+          <a href="#portfolio" class="btn btn-secondary">
+            View Our Work
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img
+            src="./logo-hero.png"
+            alt="Horizon Web Studio Premium Logo"
+            class="hero-image"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="section-label">What We Build</p>
+        <h2>Premium Digital Experiences For Growing Businesses</h2>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-icon">01</div>
+
+          <h3>The One-Pager</h3>
+
+          <p class="service-subtitle">
+            Landing Page Solution
+          </p>
+
+          <p>
+            Perfect for barbers, consultants, restaurants, photographers,
+            gyms, and local service providers who need a sleek online presence
+            that converts visitors into paying customers.
+          </p>
+
+          <ul>
+            <li>Modern mobile-first design</li>
+            <li>Fast loading performance</li>
+            <li>Conversion-focused layout</li>
+            <li>WhatsApp & social integrations</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">02</div>
+
+          <h3>Business Growth Package</h3>
+
+          <p class="service-subtitle">
+            Multi-Page Business Website
+          </p>
+
+          <p>
+            A complete professional setup designed to help businesses across Abuja
+            improve credibility, visibility, and lead generation online.
+          </p>
+
+          <ul>
+            <li>Multi-page responsive website</li>
+            <li>SEO & local search optimization</li>
+            <li>Google Business integration</li>
+            <li>Performance optimization</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">03</div>
+
+          <h3>E-Commerce & Booking Engines</h3>
+
+          <p class="service-subtitle">
+            Online Sales & Reservations
+          </p>
+
+          <p>
+            Advanced online systems for salons, cafes, stores, and service businesses
+            ready to automate bookings, accept payments, and grow revenue.
+          </p>
+
+          <ul>
+            <li>Appointment scheduling systems</li>
+            <li>Online ordering & checkout</li>
+            <li>Inventory or menu integration</li>
+            <li>Customer management features</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <p class="services-note">
+        Contact us directly for custom project quotes tailored to your business needs.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="section-label">Selected Concepts</p>
+        <h2>Web Experiences Designed To Convert</h2>
+      </div>
+
+      <!-- FILTERS -->
+      <div class="portfolio-filters">
+
+        <button class="filter-btn active" data-filter="all">
+          All Work
+        </button>
+
+        <button class="filter-btn" data-filter="landing">
+          Landing Pages
+        </button>
+
+        <button class="filter-btn" data-filter="booking">
+          Booking Systems
+        </button>
+
+        <button class="filter-btn" data-filter="ecommerce">
+          E-Commerce
+        </button>
+
+      </div>
+
+      <!-- GRID -->
+      <div class="portfolio-grid">
+
+        <article
+        class="portfolio-card"
+        data-category="booking"
+        >
+            <img
+                src="./logo-hero.png"
+                alt="Vanguard Barbershop website preview"
+                class="portfolio-image"
+            />
+
+            <div class="portfolio-overlay"></div>
+
+            <div class="portfolio-content">
+                <span class="portfolio-tag">
+                Booking Systems
+                </span>
+
+                <h3>Vanguard Barbershop</h3>
+
+                <p>
+                A sleek dark-themed haircut reservation platform with online
+                appointment management and automated reminders.
+                </p>
+            </div>
+        </article>
+
+        <article
+          class="portfolio-card"
+          data-category="ecommerce"
+        >
+
+            <img
+                src="./logo-hero.png"
+                alt="Vanguard Barbershop website preview"
+                class="portfolio-image"
+            />
+
+          <div class="portfolio-overlay"></div>
+
+          <div class="portfolio-content">
+            <span class="portfolio-tag">
+              E-Commerce
+            </span>
+
+            <h3>The Capital Cafe</h3>
+
+            <p>
+              An interactive digital menu and delivery-focused experience
+              designed for modern restaurant operations in Abuja.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="portfolio-card"
+          data-category="landing"
+        >
+
+            <img
+                src="./logo-hero.png"
+                alt="Vanguard Barbershop website preview"
+                class="portfolio-image"
+            />
+
+          <div class="portfolio-overlay"></div>
+
+          <div class="portfolio-content">
+            <span class="portfolio-tag">
+              Landing Pages
+            </span>
+
+            <h3>Abuja Logistics Hub</h3>
+
+            <p>
+              A conversion-focused lead generation platform helping moving
+              services capture more local customer inquiries.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOCAL EDGE -->
+  <section class="local-edge section" id="local-edge">
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="section-label">Why Local Matters</p>
+        <h2>The Horizon Advantage</h2>
+      </div>
+
+      <div class="edge-grid">
+
+        <div class="edge-card">
+          <h3>Face-To-Face Collaboration</h3>
+
+          <p>
+            Work directly with a local Abuja-based studio that understands your
+            market, audience, and business environment.
+          </p>
+        </div>
+
+        <div class="edge-card">
+          <h3>Google Business Optimization</h3>
+
+          <p>
+            We help businesses improve visibility on Google Maps and local
+            searches through smart GBP integration.
+          </p>
+        </div>
+
+        <div class="edge-card">
+          <h3>Fast Performance</h3>
+
+          <p>
+            Every website is optimized for speed, mobile responsiveness,
+            and smooth browsing on local Nigerian networks.
+          </p>
+        </div>
+
+        <div class="edge-card">
+          <h3>We Handle The Technical Side</h3>
+
+          <p>
+            Hosting, deployment, domain setup, SSL security, and maintenance —
+            we manage the heavy lifting so you can focus on business.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact-container">
+
+      <p class="section-label">Let's Build Something Great</p>
+
+      <h2>
+        Ready to take your business to the next level?
+      </h2>
+
+      <p class="contact-description">
+        Whether you need a premium landing page, booking platform,
+        or a complete online storefront, Horizon Web Studio is ready
+        to help your business stand out online.
+      </p>
+
+      <div class="contact-details">
+
+        <div class="contact-item">
+          <span>Phone</span>
+          <a href="tel:+2347043703427">
+            +234 (0) 704 370 3427
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <span>Email</span>
+          <a href="mailto:nelsonbluejack08@gmail.com">
+            nelsonbluejack08@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <span>Location</span>
+          <p>Based in Abuja, Nigeria.</p>
+        </div>
+
+      </div>
+
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>
+        © 2026 Horizon Web Studio. Crafted for ambitious local businesses.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="./app.js"></script>
+
+</body>
+</html>
